@@ -1,4 +1,4 @@
-import {AiOutlineArrowRight} from "react-icons/ai"
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function OpenButton({ value }) {
   return (
@@ -10,7 +10,7 @@ export default function OpenButton({ value }) {
     
     "
     >
-      Open
+      <a href="/go">Open</a>
       <AiOutlineArrowRight className="mt-1" />
     </button>
   );
