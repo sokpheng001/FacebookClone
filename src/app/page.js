@@ -7,7 +7,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="flex justify-center flex-col items-center gap-3 bg-[url('/background/background.jpg')] bg-cover h-screen">
-      <section className="animate-scale-up flex gap-1 md:gap-2 text-3xl md:text-5xl lg:text-7xl  text-white">
+      <section className=" animate-scale-up flex gap-1 md:gap-2 text-3xl md:text-5xl lg:text-7xl  text-white">
         <p>O</p>
         <p>P</p>
         <p>E</p>
@@ -21,6 +21,7 @@ export default function Home() {
         <p>P</p>
         <p>H</p>
       </section>
+
       {/*  */}
       <section className="flex gap-16">
         <OpenButton />
