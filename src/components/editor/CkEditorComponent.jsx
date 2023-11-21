@@ -1,6 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import DecoupledEditor from "@ckeditor/ckeditor5-build-decoupled-document";
+// import dynamic from "next/dynamic";
+// const  {CKEditor}  = dynamic(()=>import('@ckeditor/ckeditor5-react')
+// );
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 
 export default function CkEditorComponent({content}) {

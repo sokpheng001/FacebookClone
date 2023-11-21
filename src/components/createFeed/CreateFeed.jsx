@@ -7,7 +7,7 @@ import FeeligIcon from '../logo & Icon/FeeligIcon';
 
 export default function CreateFeed({profileImageUrl}) {
   return (
-    <div className="w-full rounded-xl bg-[#242526] h-32 flex flex-col">
+    <div className="w-full rounded-lg bg-[#242526] h-32 flex flex-col">
       {/* input */}
       <div className="w-full flex gap-4 p-4  ">
         <div className="w-11">
